@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/triage"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clipToPadding="false"
+    android:fillViewport="false">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/UR"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="1. Patient UR"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/UR_Text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/age_text"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="2. Age"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <TextView
+            android:id="@+id/gender_text"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="3. Gender"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/gender_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/male"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Male" />
+
+            <RadioButton
+                android:id="@+id/female"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Female" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/smoking"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="4. Smoking status"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/smoking_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/smoking_y"
+                android:layout_width="20dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Smoker"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/smoking_n"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Not Smoker"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/smoking_issues"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Issues due to tobacco"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/alcohol"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="5. Alcohol Status"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/alcohol_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/alcohol_y"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Alcohol use"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/alcohol_n"
+                android:layout_width="30dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No alcohol"
+                android:textSize="12sp" />
+
+            <RadioButton
+                android:id="@+id/alcohol_issues"
+                android:layout_width="129dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Issues due to alcohol"
+                android:textSize="12sp" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/admsourc"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="6. Admission Source"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/admsourc_group"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/admsourc_h"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="H" />
+
+            <RadioButton
+                android:id="@+id/admsourc_n"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="N" />
+
+            <RadioButton
+                android:id="@+id/admsourc_t"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="T" />
+
+            <RadioButton
+                android:id="@+id/admsourc_b"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="B" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/emnone"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="7. Emergency Admission Indicator"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/emnone_group"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/emnone_y"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Emergency" />
+
+            <RadioButton
+                android:id="@+id/emnone_n"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="Not Emergency" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/anaesthetic"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="8. Anaesthetic type"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <RadioGroup
+            android:id="@+id/anaesthetic_group"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/anaesthetic_GA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="GA" />
+
+            <RadioButton
+                android:id="@+id/anaesthetic_RA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="RA" />
+
+            <RadioButton
+                android:id="@+id/anaesthetic_SED"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="SED" />
+
+            <RadioButton
+                android:id="@+id/anaesthetic_LA"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="LA" />
+
+            <RadioButton
+                android:id="@+id/anaesthetic_NIL"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="NIL" />
+
+        </RadioGroup>
+
+        <TextView
+            android:id="@+id/cci_admit_text"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="9. Charlson Score at Admission including Age"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/cci_admit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+
+        <TextView
+            android:id="@+id/theatre_mins_text"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:text="10. Total time in theatre (mins)"
+            android:textColor="@android:color/black"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/threatre_mins"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textSize="14sp" />
+
+        <EditText
+            android:id="@+id/op_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:text="11. Operations classification"
+            android:textSize="14sp"
+            android:textStyle="bold" />
+
+        <Spinner
+            android:id="@+id/operations"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="visible" />
+
+        <Button
+            android:id="@+id/triageb"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Triage" />
+
+    </LinearLayout>
+</ScrollView>

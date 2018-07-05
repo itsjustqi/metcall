@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">metcall</string>
+    <string-array name="operations">
+        <item>Scoliosis treatment</item>
+        <item>Decompressiv laminctomy/spinal fusion"</item>
+        <item>Shoulder/elbow arthroplasty</item>
+        <item>Other UL surgery/shoulder other (incl. arthroscopy)/hand surgery</item>
+        <item>THR</item>
+        <item>Hemi-arthroplasty</item>
+        <item>ORIF - DHS/Nail</item>
+        <item>Hip Arthroscopy</item>
+        <item>TKR/UKR</item>
+        <item>Ligamentous/Meniscal surgery</item>
+        <item>Knee arthroscopy</item>
+        <item>ORIF - Femur</item>
+        <item>ORIF - Tibia/fibula/patella</item>
+        <item>Foot and ankle surgery</item>
+        <item>Other</item>
+    </string-array>
+</resources>
