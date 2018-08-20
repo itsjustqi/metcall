@@ -17,8 +17,8 @@
             </intent-filter>
         </activity>
         <activity android:name=".triage" />
-        <activity android:name=".data" />
-        <activity android:name=".result"></activity>
+        <activity android:name=".result" />
+        <activity android:name=".data"></activity>
     </application>
 
 </manifest>

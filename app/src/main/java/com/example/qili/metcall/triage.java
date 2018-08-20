@@ -103,7 +103,6 @@ public class triage extends result implements View.OnClickListener {
                     break;
             }
 
-
             RadioGroup anaesthetic_group = (RadioGroup)findViewById(R.id.anaesthetic_group);
             int checkRadioButtonId_anaesthetic = admsourc_group.getCheckedRadioButtonId();
             int anaesthetic = 0;
