@@ -2,7 +2,7 @@ package com.example.qili.metcall;
 
 public class Patient {
 
-    //private variables
+    //Private variables
     private int patientUR;
     private int gender;
     private int smoking;
@@ -12,10 +12,10 @@ public class Patient {
     private int anaesthetic;
     private int age;
 
-    // Empty constructor
+    //Empty constructor
     public Patient(){ }
 
-    // constructor
+    //Constructor
     public Patient(int patientUR, int gender, int smoking, int alcohol, int emnone, int operations, int anaesthetic, int age){
         this.patientUR = patientUR;
         this.gender = gender;
@@ -30,6 +30,7 @@ public class Patient {
     public int getPatientUR() {
         return patientUR;
     }
+
     public void setPatientUR(int patientUR) {
         this.patientUR = patientUR;
     }
@@ -40,7 +41,7 @@ public class Patient {
         this.gender = gender;
     }
     public int getSmoking() {
-        return gender;
+        return smoking;
     }
     public void setSmoking() {
         this.smoking = smoking;
@@ -64,7 +65,7 @@ public class Patient {
         this.operations = operations;
     }
     public int getAnaesthetic() {
-        return operations;
+        return anaesthetic;
     }
     public void setAnaesthetic() {
         this.anaesthetic = anaesthetic;

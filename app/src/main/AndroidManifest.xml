@@ -18,7 +18,8 @@
         </activity>
         <activity android:name=".triage" />
         <activity android:name=".result" />
-        <activity android:name=".data"></activity>
+        <activity android:name=".data" />
+        <activity android:name=".ccical" />
     </application>
 
 </manifest>

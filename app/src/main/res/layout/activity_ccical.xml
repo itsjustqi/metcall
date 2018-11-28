@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ccical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editText8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Charlson Score Calculator"
+            android:textAlignment="center" />
+
+        <EditText
+            android:id="@+id/editText9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:text="Note: Please click the radio button if the condition is true!"
+            android:textAlignment="viewStart"
+            android:textSize="14sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Myocardial infarction (history, not ECG changes only)" />
+
+        <RadioButton
+            android:id="@+id/radioButton11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Congestive heart failure" />
+
+        <RadioButton
+            android:id="@+id/radioButton12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text=" Peripheral disease (includes aortic aneurysm >= 6 cm) "/>
+
+        <RadioButton
+            android:id="@+id/radioButton13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cerebrovascular disease: CVA with mild or no residua or TIA" />
+
+        <RadioButton
+            android:id="@+id/radioButton14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Dementia" />
+
+        <RadioButton
+            android:id="@+id/radioButton15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chronic pulmonary disease" />
+
+        <RadioButton
+            android:id="@+id/radioButton16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Connective tissue disease" />
+
+        <RadioButton
+            android:id="@+id/radioButton17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Peptic ulcer disease" />
+
+        <RadioButton
+            android:id="@+id/radioButton18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Mild liver disease (without portal hypertension, inlcudes chronic hepatitis)" />
+
+        <RadioButton
+            android:id="@+id/radioButton19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diabetes without end-organ damage (excludes diet-controlled alone) " />
+
+        <RadioButton
+            android:id="@+id/radioButton20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hemiplegia" />
+
+        <RadioButton
+            android:id="@+id/radioButton21"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moderate or severe renal disease" />
+
+        <RadioButton
+            android:id="@+id/radioButton22"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Diabetes with end-organ damage (retinopathy, neuropathy,nephropathy, or brittle diabetes)" />
+
+        <RadioButton
+            android:id="@+id/radioButton23"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tumor without metastasis (exclude if > 5 y from diagnosis)" />
+
+        <RadioButton
+            android:id="@+id/radioButton24"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Leukemia(acute or chronic)" />
+
+        <RadioButton
+            android:id="@+id/radioButton25"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Moderate or severe liver disease" />
+
+        <RadioButton
+            android:id="@+id/radioButton26"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Metastatic solid tumor" />
+
+        <RadioButton
+            android:id="@+id/radioButton27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="AIDS (not just HIV positive)" />
+
+        <Button
+            android:id="@+id/calcci"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Charlson Score" />
+
+    </LinearLayout>
+</ScrollView>
