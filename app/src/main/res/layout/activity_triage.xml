@@ -29,23 +29,6 @@
             android:layout_height="match_parent"
             android:orientation="horizontal">
 
-            <TextView
-                android:id="@+id/UR"
-                android:layout_width="194dp"
-                android:layout_height="35dp"
-                android:layout_weight="1"
-                android:text="1. Patient UR"
-                android:textColor="@android:color/black"
-                android:textStyle="bold" />
-
-            <EditText
-                android:id="@+id/UR_Text"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_weight="1"
-                android:ems="10"
-                android:inputType="textPersonName"
-                android:textSize="14sp" />
         </LinearLayout>
 
         <LinearLayout
@@ -58,7 +41,7 @@
                 android:layout_width="195dp"
                 android:layout_height="35dp"
                 android:layout_weight="1"
-                android:text="2. Age"
+                android:text="1. Age"
                 android:textColor="@android:color/black"
                 android:textStyle="bold" />
 
@@ -77,7 +60,7 @@
             android:id="@+id/gender_text"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="3. Gender"
+            android:text="2. Gender"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -107,7 +90,7 @@
             android:id="@+id/smoking"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="4. Smoking status"
+            android:text="3. Smoking status"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -147,7 +130,7 @@
             android:id="@+id/alcohol"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="5. Alcohol Status"
+            android:text="4. Alcohol Status"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -187,7 +170,7 @@
             android:id="@+id/admsourc"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="6. Admission Source"
+            android:text="5. Admission Source"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -231,7 +214,7 @@
             android:id="@+id/emnone"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="7. Emergency Admission Indicator"
+            android:text="6. Emergency Admission Indicator"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -261,7 +244,7 @@
             android:id="@+id/anaesthetic"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="8. Anaesthetic type"
+            android:text="7. Anaesthetic type"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -312,7 +295,7 @@
             android:id="@+id/cci_admit_text"
             android:layout_width="match_parent"
             android:layout_height="35dp"
-            android:text="9. Charlson Score at Admission including Age"
+            android:text="8. Charlson Score at Admission including Age"
             android:textColor="@android:color/black"
             android:textStyle="bold" />
 
@@ -334,7 +317,7 @@
                 android:layout_width="479dp"
                 android:layout_height="35dp"
                 android:layout_weight="1"
-                android:text="10. Total time in theatre (mins)"
+                android:text="9. Total time in theatre (mins)"
                 android:textColor="@android:color/black"
                 android:textStyle="bold" />
 
@@ -354,7 +337,7 @@
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="number"
-            android:text="11. Operations classification"
+            android:text="10. Operations classification"
             android:textSize="14sp"
             android:textStyle="bold" />
 

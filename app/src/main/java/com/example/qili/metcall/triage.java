@@ -145,8 +145,8 @@ public class triage extends result implements View.OnClickListener {
             String age_triage = age.getText().toString();
             int age_int = new Integer(age_triage).intValue();
 
-            Patient patient = new Patient (R.id.UR, gender, smoking, alcohol, emnone, R.id.operations, anaesthetic, age_int);
-            dbhandler.addpatient(patient);
+            //Patient patient = new Patient (R.id.UR, gender, smoking, alcohol, emnone, R.id.operations, anaesthetic, age_int);
+            //dbhandler.addpatient(patient);
 
             Intent intent = new Intent();
             intent.setClass(triage.this, result.class);

@@ -129,20 +129,20 @@ public class result extends AppCompatActivity {
                     } else {
                         if (cci < 4.5) {
                             if (adm == 0) {
-                                probability_CART = 0.35;
+                                probability_CART = 0.350;
                             } else {
-                                probability_CART = 0.85;
+                                probability_CART = 0.850;
                             }
                         } else {
-                            probability_CART = 0.73;
+                            probability_CART = 0.730;
                         }
                     }
                 } else {
                     if (OperID == 12 || OperID == 13 || OperID == 10 || OperID == 14 || OperID == 5 || OperID == 9
                             || OperID == 11) {
-                        probability_CART = 0.45;
+                        probability_CART = 0.450;
                     } else {
-                        probability_CART = 0.82;
+                        probability_CART = 0.820;
                     }
                 }
 
@@ -162,7 +162,7 @@ public class result extends AppCompatActivity {
                                         probability_NB = 0.054;
                                         break;
                                     case 1:
-                                        probability_NB = 0.8;
+                                        probability_NB = 0.800;
                                         break;
                                     case 2:
                                         probability_NB = 0;
@@ -196,7 +196,7 @@ public class result extends AppCompatActivity {
                                                     probability_NB = 0.286;
                                                     break;
                                                 case 6:
-                                                    probability_NB = 0.25;
+                                                    probability_NB = 0.250;
                                                     break;
                                                 case 7:
                                                     probability_NB = 0.857;
@@ -224,7 +224,7 @@ public class result extends AppCompatActivity {
                                                 if (age_triage >= 20 && age_triage < 25)
                                                     switch (adm) {
                                                         case 0:
-                                                            probability_NB = 0.04;
+                                                            probability_NB = 0.040;
                                                             break;
                                                         case 1:
                                                             probability_NB = 1;
@@ -442,105 +442,105 @@ public class result extends AppCompatActivity {
 
                     case 25:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 8 && cci == 0 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 12 && cci == 0 && anaesthetic == 0) {
-                                probability_casebased = 0.5;
+                                probability_casebased = 0.500;
                             }
                         }
                         break;
 
                     case 27:
                         if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 2 && OperID == 12 && cci == 0 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 28:
                         if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && cci == 1) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 2 && OperID == 12 && cci == 2 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
-                                probability_casebased = 0.00;
+                                probability_casebased = 0.000;
                             }
                         }
                         break;
 
                     case 29:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 2 && OperID == 4 && cci == 0 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 0 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
-                                probability_casebased = 0.00;
+                                probability_casebased = 0.000;
                             }
                         }
                         break;
 
                     case 31:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 2 && OperID == 5 && cci == 1 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         }
                         break;
 
                     case 32:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 8 && cci == 0 && anaesthetic == 0) {
-                            probability_casebased = 0.5;
+                            probability_casebased = 0.500;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 33:
                         if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 13 && cci == 0 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 34:
                         if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 8 && cci == 0 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 35:
                         if (sex == 1 && smoke == 1 && alcohol == 2 && emnone == 1 && adm == 0 && OperID == 9 && cci == 1 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 36:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 2 && OperID == 4 && cci == 0 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 37:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 5 && cci == 3 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 8 && cci == 0 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
-                                    probability_casebased = 0.00;
+                                    probability_casebased = 0.000;
                                 }
                             }
                         }
@@ -548,96 +548,96 @@ public class result extends AppCompatActivity {
 
                     case 39:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 0 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 41:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 1 && anaesthetic == 4) {
-                            probability_casebased = 0.33;
+                            probability_casebased = 0.330;
                         } else {
                             if (sex == 0 && smoke == 1 && alcohol == 2 && emnone == 1 && adm == 0 && OperID == 5 && cci == 3 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
-                                probability_casebased = 0.00;
+                                probability_casebased = 0.000;
                             }
                         }
                         break;
 
                     case 43:
                         if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 2 && cci == 3 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 44:
                         if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && cci == 7) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 45:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 2 && cci == 2 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 11 && cci == 1 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
-                                probability_casebased = 0.00;
+                                probability_casebased = 0.000;
                             }
                         }
                         break;
 
                     case 47:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 8 && cci == 2 && anaesthetic == 1) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 48:
                         if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 1 && anaesthetic == 1) {
-                                probability_casebased = 0.5;
+                                probability_casebased = 0.500;
                             } else {
-                                probability_casebased = 0.00;
+                                probability_casebased = 0.000;
                             }
                         }
                         break;
 
                     case 49:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 4 && cci == 1 && anaesthetic == 0) {
-                            probability_casebased = 0.5;
+                            probability_casebased = 0.500;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 1 && anaesthetic == 0) {
-                                probability_casebased = 0.5;
+                                probability_casebased = 0.500;
                             }
                         }
                         break;
 
                     case 50:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 2 && cci == 1 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 2 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 1 && anaesthetic == 0) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
                                     if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 8 && cci == 1 && anaesthetic == 0) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
-                                        probability_casebased = 0.00;
+                                        probability_casebased = 0.000;
                                     }
                                 }
                             }
@@ -646,21 +646,21 @@ public class result extends AppCompatActivity {
 
                     case 51:
                         if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 1 && cci == 2 && anaesthetic == 1) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
-                            probability_casebased = 0.00;
+                            probability_casebased = 0.000;
                         }
                         break;
 
                     case 52:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 2 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 1 && smoke == 0 && alcohol == 2 && emnone == 1 && adm == 0 && OperID == 2 && cci == 2 && anaesthetic == 1) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                                    probability_casebased = 0.2;
+                                    probability_casebased = 0.200;
                                 }
                             }
                         }
@@ -668,21 +668,21 @@ public class result extends AppCompatActivity {
 
                     case 53:
                         if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                            probability_casebased = 0.2;
+                            probability_casebased = 0.200;
                         } else {
                             if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 3 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 9 && cci == 2 && anaesthetic == 0) {
-                                    probability_casebased = 0.33;
+                                    probability_casebased = 0.330;
                                 } else {
                                     if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 3 && anaesthetic == 0) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
                                         if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 12 && cci == 2 && anaesthetic == 0) {
-                                            probability_casebased = 1.00;
+                                            probability_casebased = 1.000;
                                         } else {
-                                            probability_casebased = 0.00;
+                                            probability_casebased = 0.000;
                                         }
                                     }
                                 }
@@ -692,21 +692,21 @@ public class result extends AppCompatActivity {
 
                     case 54:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 5 && cci == 2 && anaesthetic == 0) {
-                            probability_casebased = 0.2;
+                            probability_casebased = 0.200;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 1 && cci == 2 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                                    probability_casebased = 0.33;
+                                    probability_casebased = 0.330;
                                 } else {
                                     if (sex == 1 && smoke == 0 && alcohol == 2 && emnone == 1 && adm == 0 && OperID == 9 && cci == 2 && anaesthetic == 0) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
                                         if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 1 && cci == 3 && anaesthetic == 0) {
-                                            probability_casebased = 1.00;
+                                            probability_casebased = 1.000;
                                         } else {
-                                            probability_casebased = 0.00;
+                                            probability_casebased = 0.000;
                                         }
                                     }
                                 }
@@ -716,21 +716,21 @@ public class result extends AppCompatActivity {
 
                     case 55:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && cci == 3) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                                probability_casebased = 0.2;
+                                probability_casebased = 0.200;
                             } else {
                                 if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 4 && cci == 8 && anaesthetic == 0) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
                                     if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 1 && cci == 8 && anaesthetic == 0) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
                                         if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && cci == 2) {
-                                            probability_casebased = 1.00;
+                                            probability_casebased = 1.000;
                                         } else {
-                                            probability_casebased = 0.00;
+                                            probability_casebased = 0.000;
                                         }
                                     }
                                 }
@@ -740,28 +740,28 @@ public class result extends AppCompatActivity {
 
                     case 56:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 1 && OperID == 8 && cci == 5 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 2 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 8 && cci == 2 && anaesthetic == 4) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
                                     if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 1 && OperID == 8 && cci == 5 && anaesthetic == 1) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
                                         if (sex == 0 && smoke == 1 && alcohol == 2 && emnone == 1 && adm == 0 && OperID == 2 && cci == 3 && anaesthetic == 0) {
-                                            probability_casebased = 1.00;
+                                            probability_casebased = 1.000;
                                         } else {
                                             if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 5 && cci == 3 && anaesthetic == 0) {
-                                                probability_casebased = 1.00;
+                                                probability_casebased = 1.000;
                                             } else {
                                                 if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 2 && cci == 2 && anaesthetic == 0) {
-                                                    probability_casebased = 1.00;
+                                                    probability_casebased = 1.000;
                                                 } else {
                                                     if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 2 && OperID == 4 && cci == 9 && anaesthetic == 0) {
-                                                        probability_casebased = 1.00;
+                                                        probability_casebased = 1.000;
                                                     }
                                                 }
                                             }
@@ -774,30 +774,30 @@ public class result extends AppCompatActivity {
 
                     case 57:
                         if (sex == 0 && smoke == 2 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 2 && anaesthetic == 1) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 4 && cci == 4 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 5 && cci == 2 && anaesthetic == 0) {
-                                    probability_casebased = 0.25;
+                                    probability_casebased = 0.250;
                                 } else {
                                     if (sex == 0 && smoke == 1 && alcohol == 2 && emnone == 1 && adm == 0 && OperID == 5 && cci == 3 && anaesthetic == 0) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
                                         if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 2 && cci == 4 && anaesthetic == 0) {
-                                            probability_casebased = 1.00;
+                                            probability_casebased = 1.000;
                                         } else {
                                             if (sex == 1 && smoke == 2 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 2 && cci == 2 && anaesthetic == 3) {
-                                                probability_casebased = 1.00;
+                                                probability_casebased = 1.000;
                                             } else {
                                                 if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                                                    probability_casebased = 1.00;
+                                                    probability_casebased = 1.000;
                                                 } else {
                                                     if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
                                                         probability_casebased = 0.5;
                                                     } else {
-                                                        probability_casebased = 0.00;
+                                                        probability_casebased = 0.000;
                                                     }
                                                 }
                                             }
@@ -810,24 +810,24 @@ public class result extends AppCompatActivity {
 
                     case 58:
                         if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                            probability_casebased = 0.5;
+                            probability_casebased = 0.500;
                         } else {
                             if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 5 && cci == 2 && anaesthetic == 0) {
-                                probability_casebased = 0.5;
+                                probability_casebased = 0.500;
                             } else {
                                 if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 8 && cci == 2 && anaesthetic == 1) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
                                     if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 2 && cci == 3 && anaesthetic == 0) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
                                         if (sex == 1 && smoke == 1 && alcohol == 2 && emnone == 1 && adm == 0 && OperID == 4 && cci == 4 && anaesthetic == 0) {
-                                            probability_casebased = 1.00;
+                                            probability_casebased = 1.000;
                                         } else {
                                             if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 1 && OperID == 1 && cci == 2 && anaesthetic == 0) {
-                                                probability_casebased = 1.00;
+                                                probability_casebased = 1.000;
                                             } else {
-                                                probability_casebased = 0.00;
+                                                probability_casebased = 0.000;
                                             }
                                         }
                                     }
@@ -838,22 +838,22 @@ public class result extends AppCompatActivity {
 
                     case 59:
                         if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 6 && cci == 4 && anaesthetic == 1) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 1 && smoke == 2 && alcohol == 2 && emnone == 1 && adm == 0 && OperID == 1 && cci == 4 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 2 && cci == 2 && anaesthetic == 0) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
                                     if (sex == 0 && smoke == 2 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 8 && cci == 8 && anaesthetic == 0) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
                                         if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 2 && cci == 2 && anaesthetic == 0) {
-                                            probability_casebased = 0.5;
+                                            probability_casebased = 0.500;
                                         } else {
                                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 2 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                                                probability_casebased = 1.00;
+                                                probability_casebased = 1.000;
                                             }
                                         }
                                     }
@@ -864,15 +864,15 @@ public class result extends AppCompatActivity {
 
                     case 60:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 9 && cci == 4 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 2 && OperID == 4 && cci == 4 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 2 && anaesthetic == 0) {
-                                    probability_casebased = 0.5;
+                                    probability_casebased = 0.500;
                                 } else {
-                                    probability_casebased = 0.00;
+                                    probability_casebased = 0.000;
                                 }
                             }
                         }
@@ -880,33 +880,33 @@ public class result extends AppCompatActivity {
 
                     case 61:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 6 && cci == 3 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 3 && cci == 9 && anaesthetic == 2) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 6 && cci == 5 && anaesthetic == 1) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
                                     if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 4 && cci == 1 && anaesthetic == 4) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
                                         if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 11 && cci == 3 && anaesthetic == 0) {
-                                            probability_casebased = 1.00;
+                                            probability_casebased = 1.000;
                                         } else {
                                             if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 1 && cci == 6 && anaesthetic == 0) {
-                                                probability_casebased = 1.00;
+                                                probability_casebased = 1.000;
                                             } else {
                                                 if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && cci == 3) {
-                                                    probability_casebased = 0.5;
+                                                    probability_casebased = 0.500;
                                                 } else {
                                                     if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 7 && cci == 3 && anaesthetic == 0) {
-                                                        probability_casebased = 1.00;
+                                                        probability_casebased = 1.000;
                                                     } else {
                                                         if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 6 && cci == 7 && anaesthetic == 0) {
-                                                            probability_casebased = 1.00;
+                                                            probability_casebased = 1.000;
                                                         } else {
-                                                            probability_casebased = 0.00;
+                                                            probability_casebased = 0.000;
                                                         }
                                                     }
                                                 }
@@ -920,22 +920,22 @@ public class result extends AppCompatActivity {
 
                     case 62:
                         if (sex == 0 && smoke == 2 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 11 && cci == 7 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 2 && cci == 3 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 3 && anaesthetic == 0) {
-                                    probability_casebased = 0.33;
+                                    probability_casebased = 0.330;
                                 } else {
                                     if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 3 && anaesthetic == 0) {
-                                        probability_casebased = 0.5;
+                                        probability_casebased = 0.500;
                                     } else {
                                         if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 1 && OperID == 7 && cci == 4 && anaesthetic == 0) {
                                             probability_casebased = 1.00;
                                         } else {
                                             if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 0 && cci == 9) {
-                                                probability_casebased = 1.00;
+                                                probability_casebased = 1.000;
                                             }
                                         }
                                     }
@@ -946,18 +946,18 @@ public class result extends AppCompatActivity {
 
                     case 63:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 3 && anaesthetic == 0) {
-                            probability_casebased = 0.25;
+                            probability_casebased = 0.250;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 4 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 8 && cci == 3 && anaesthetic == 0) {
-                                    probability_casebased = 0.33;
+                                    probability_casebased = 0.330;
                                 } else {
                                     if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 6 && cci == 3 && anaesthetic == 0) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
-                                        probability_casebased = 0.00;
+                                        probability_casebased = 0.000;
                                     }
                                 }
                             }
@@ -966,16 +966,16 @@ public class result extends AppCompatActivity {
 
                     case 64:
                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 3 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 3 && anaesthetic == 1) {
-                                probability_casebased = 0.33;
+                                probability_casebased = 0.330;
                             } else {
                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 1 && OperID == 1 && cci == 3 && anaesthetic == 0) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
                                     if (sex == 1 && smoke == 1 && alcohol == 2 && emnone == 1 && adm == 0 && OperID == 5 && cci == 5 && anaesthetic == 1) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     }
                                 }
                             }
@@ -984,48 +984,48 @@ public class result extends AppCompatActivity {
 
                     case 65:
                         if (sex == 0 && smoke == 2 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 7 && cci == 3 && anaesthetic == 1) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 2 && emnone == 1 && adm == 0 && cci == 3 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 3 && cci == 3 && anaesthetic == 0) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
                                     if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 9 && cci == 3 && anaesthetic == 0) {
                                         probability_casebased = 0.125;
                                     } else {
                                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 9 && cci == 1 && anaesthetic == 0) {
-                                            probability_casebased = 1.00;
+                                            probability_casebased = 1.000;
                                         } else {
                                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 8 && cci == 3 && anaesthetic == 0) {
-                                                probability_casebased = 0.5;
+                                                probability_casebased = 0.500;
                                             } else {
                                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 6 && anaesthetic == 0) {
-                                                    probability_casebased = 1.00;
+                                                    probability_casebased = 1.000;
                                                 } else {
                                                     if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 6 && cci == 5 && anaesthetic == 1) {
-                                                        probability_casebased = 0.5;
+                                                        probability_casebased = 0.500;
                                                     } else {
                                                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 2 && cci == 9 && anaesthetic == 0) {
-                                                            probability_casebased = 1.00;
+                                                            probability_casebased = 1.000;
                                                         } else {
                                                             if (sex == 0 && smoke == 1 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 3 && anaesthetic == 0) {
-                                                                probability_casebased = 0.2;
+                                                                probability_casebased = 0.200;
                                                             } else {
                                                                 if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 4 && anaesthetic == 1) {
-                                                                    probability_casebased = 1.00;
+                                                                    probability_casebased = 1.000;
                                                                 } else {
                                                                     if (sex == 1 && smoke == 2 && alcohol == 0 && emnone == 0 && adm == 2 && OperID == 8 && cci == 3 && anaesthetic == 0) {
-                                                                        probability_casebased = 1.00;
+                                                                        probability_casebased = 1.000;
                                                                     } else {
                                                                         if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 1 && cci == 3 && anaesthetic == 0) {
-                                                                            probability_casebased = 1.00;
+                                                                            probability_casebased = 1.000;
                                                                         } else {
                                                                             if (sex == 1 && smoke == 1 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 5 && cci == 3 && anaesthetic == 0) {
-                                                                                probability_casebased = 0.5;
+                                                                                probability_casebased = 0.500;
                                                                             } else {
-                                                                                probability_casebased = 0.00;
+                                                                                probability_casebased = 0.000;
                                                                             }
                                                                         }
                                                                     }
@@ -1044,36 +1044,36 @@ public class result extends AppCompatActivity {
 
                     case 66:
                         if (sex == 0 && smoke == 2 && alcohol == 0 && emnone == 1 && adm == 0 && cci == 4) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 4 && cci == 5 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 12 && cci == 3 && anaesthetic == 0) {
-                                    probability_casebased = 1.00;
+                                    probability_casebased = 1.000;
                                 } else {
                                     if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 11 && cci == 5 && anaesthetic == 0) {
-                                        probability_casebased = 1.00;
+                                        probability_casebased = 1.000;
                                     } else {
                                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 3 && anaesthetic == 0) {
-                                            probability_casebased = 1.00;
+                                            probability_casebased = 1.000;
                                         } else {
                                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 11 && cci == 4 && anaesthetic == 0) {
-                                                probability_casebased = 1.00;
+                                                probability_casebased = 1.000;
                                             } else {
                                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 6 && cci == 3 && anaesthetic == 0) {
-                                                    probability_casebased = 0.33;
+                                                    probability_casebased = 0.330;
                                                 } else {
                                                     if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 2 && OperID == 4 && cci == 6 && anaesthetic == 0) {
-                                                        probability_casebased = 1.00;
+                                                        probability_casebased = 1.000;
                                                     } else {
                                                         if (sex == 1 && smoke == 2 && alcohol == 2 && emnone == 1 && adm == 0 && cci == 3 && anaesthetic == 2) {
-                                                            probability_casebased = 1.00;
+                                                            probability_casebased = 1.000;
                                                         } else {
                                                             if (sex == 1 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 6 && cci == 3 && anaesthetic == 0) {
-                                                                probability_casebased = 1.00;
+                                                                probability_casebased = 1.000;
                                                             } else {
-                                                                probability_casebased = 0.00;
+                                                                probability_casebased = 0.000;
                                                             }
                                                         }
                                                     }
@@ -1088,22 +1088,22 @@ public class result extends AppCompatActivity {
 
                     case 67:
                         if (sex == 0 && smoke == 2 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 11 && cci == 5 && anaesthetic == 0) {
-                            probability_casebased = 1.00;
+                            probability_casebased = 1.000;
                         } else {
                             if (sex == 0 && smoke == 2 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 9 && cci == 4 && anaesthetic == 0) {
-                                probability_casebased = 1.00;
+                                probability_casebased = 1.000;
                             } else {
                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && OperID == 2 && cci == 4 && anaesthetic == 0) {
-                                    probability_casebased = 0.5;
+                                    probability_casebased = 0.500;
                                 } else {
                                     if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 1 && adm == 0 && cci == 4) {
-                                        probability_casebased = 0.67;
+                                        probability_casebased = 0.670;
                                     } else {
                                         if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 4 && cci == 3 && anaesthetic == 0) {
-                                            probability_casebased = 0.25;
+                                            probability_casebased = 0.250;
                                         } else {
                                             if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 8 && cci == 3 && anaesthetic == 1) {
-                                                probability_casebased = 1.00;
+                                                probability_casebased = 1.000;
                                             } else {
                                                 if (sex == 0 && smoke == 0 && alcohol == 0 && emnone == 0 && adm == 0 && OperID == 6 && cci == 3 && anaesthetic == 0) {
                                                     probability_casebased = 0.66;

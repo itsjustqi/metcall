@@ -27,10 +27,7 @@ public class Patient {
         this.age = age;
     }
 
-    public int getPatientUR() {
-        return patientUR;
-    }
-
+    public int getPatientUR() { return patientUR; }
     public void setPatientUR(int patientUR) {
         this.patientUR = patientUR;
     }
